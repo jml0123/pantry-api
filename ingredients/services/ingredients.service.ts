@@ -1,4 +1,4 @@
-import { IngredientsColumns, StorageUnitColumns } from './../../core/core.dto';
+import { IngredientsColumns, StorageUnitColumns } from './../../core/core.types';
 import { validationResult } from "express-validator";
 import { ErrorDto } from "../../core/core.dto";
 const db = require('../../core/db');
