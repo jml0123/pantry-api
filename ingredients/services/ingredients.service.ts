@@ -2,33 +2,6 @@ import { IngredientsColumns, StorageUnitColumns } from './../../core/core.dto';
 import { validationResult } from "express-validator";
 import { ErrorDto } from "../../core/core.dto";
 const db = require('../../core/db');
-/*
-
-z
-// Get all ingredients
-router.get('/')
-
-// Get all ingredient by ID 
-router.get('/:id')
-
-// Get all ingredient by expiry date 
-router.get('/:id')
-
-// Add ingredient 
-router.post('/')
-
-// Add ingredients
-router.post('/bulk')
-
-// Delete ingredient by id
-router.delete('/:id')
-
-// Delete ingredients by list of ids
-router.delete('/:id/bulk')
-
-
-*/
-
 
 export const validateDate = (param: string) => {
     console.log(param);
